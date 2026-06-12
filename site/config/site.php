@@ -1,0 +1,216 @@
+<?php
+
+return [
+
+    'slogan' => 'Agir pour un monde meilleur',
+
+    'images' => [
+        'logo' => 'images/logo/adeprog.jpg',
+        'hero' => 'images/hero/communaute-nikki.jpg',
+    ],
+
+    'projects' => [
+        [
+            'tag'         => 'Nutrition',
+            'title'       => 'Sensibilisation alimentation & nutrition',
+            'image'       => 'images/activites/nutrition-sensibilisation.jpg',
+            'alt'         => 'Séance de sensibilisation nutritionnelle avec les communautés',
+            'year'        => '2024–2025',
+            'zone'        => 'Nikki, Sinendé, Kalalé',
+            'description' => 'Campagnes de sensibilisation sur la nutrition infantile et maternelle dans les communautés rurales du Borgou.',
+            'details'     => 'Les sessions ont mobilisé agents de santé communautaire, mères et leaders locaux autour de l\'allaitement maternel exclusif, de la diversification alimentaire et de la lutte contre les carences en micronutriments.',
+            'stats'       => [
+                ['value' => '1 200+', 'label' => 'Femmes sensibilisées'],
+                ['value' => '18',     'label' => 'Villages ciblés'],
+                ['value' => '36',     'label' => 'Sessions organisées'],
+            ],
+            'gallery'     => [
+                'images/activites/demonstration-culinaire.jpg',
+                'images/activites/depistage-malnutrition.jpg',
+                'images/activites/groupe-beneficiaires.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Nutrition',
+            'title'       => 'Dépistage de la malnutrition',
+            'image'       => 'images/activites/depistage-malnutrition.jpg',
+            'alt'         => 'Dépistage anthropométrique d\'un enfant',
+            'year'        => '2024–2025',
+            'zone'        => 'Nikki, Sinendé',
+            'description' => 'Dépistage précoce de la malnutrition aiguë et chronique chez les enfants de moins de 5 ans dans le département du Borgou.',
+            'details'     => 'Les équipes ADéProG ont mené des mesures anthropométriques (poids, taille, périmètre brachial) sur plus de 730 enfants, permettant un référencement rapide des cas sévères vers les centres de santé.',
+            'stats'       => [
+                ['value' => '730+', 'label' => 'Enfants dépistés'],
+                ['value' => '12',   'label' => 'Équipes de terrain'],
+                ['value' => '95%',  'label' => 'Taux de couverture'],
+            ],
+            'gallery'     => [
+                'images/activites/nutrition-sensibilisation.jpg',
+                'images/activites/demonstration-culinaire.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Nutrition',
+            'title'       => 'Démonstrations culinaires',
+            'image'       => 'images/activites/demonstration-culinaire.jpg',
+            'alt'         => 'Démonstration culinaire communautaire',
+            'year'        => '2024–2025',
+            'zone'        => 'NKP (Nikki, Kalalé, Pèrèrè)',
+            'description' => 'Ateliers pratiques de cuisine nutritive avec des recettes locales enrichies, destinées aux mères et gardiennes d\'enfants.',
+            'details'     => 'Ces démonstrations valorisent les aliments locaux disponibles (moringa, légumineuses, céréales) pour composer des repas équilibrés et accessibles, réduisant ainsi la malnutrition infantile par l\'éducation alimentaire.',
+            'stats'       => [
+                ['value' => '420', 'label' => 'Mères participantes'],
+                ['value' => '24',  'label' => 'Ateliers organisés'],
+                ['value' => '8',   'label' => 'Recettes développées'],
+            ],
+            'gallery'     => [
+                'images/activites/nutrition-sensibilisation.jpg',
+                'images/activites/pepiniere-moringa.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Agroécologie',
+            'title'       => 'Pépinière de moringa',
+            'image'       => 'images/activites/pepiniere-moringa.jpg',
+            'alt'         => 'Plantation de moringa avec les bénéficiaires',
+            'year'        => '2024–2025',
+            'zone'        => 'Nikki, Sinendé',
+            'description' => 'Production et distribution de plants de moringa pour renforcer la sécurité alimentaire et la diversité nutritionnelle des ménages.',
+            'details'     => 'Le moringa, arbre aux vertus nutritives exceptionnelles, est cultivé en pépinière communautaire avant d\'être distribué aux familles bénéficiaires. Ses feuilles riches en protéines, vitamines et minéraux contribuent à la lutte contre la malnutrition.',
+            'stats'       => [
+                ['value' => '5 000+', 'label' => 'Plants distribués'],
+                ['value' => '200',    'label' => 'Familles bénéficiaires'],
+                ['value' => '3',      'label' => 'Pépinières créées'],
+            ],
+            'gallery'     => [
+                'images/activites/arrosage-semis.jpg',
+                'images/activites/demonstration-culinaire.jpg',
+                'images/activites/nutrition-sensibilisation.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Agroécologie',
+            'title'       => 'Entretien des semis',
+            'image'       => 'images/activites/arrosage-semis.jpg',
+            'alt'         => 'Arrosage des plants en pépinière',
+            'year'        => '2024–2025',
+            'zone'        => 'Nikki, Sinendé',
+            'description' => 'Formation et accompagnement des communautés dans les techniques d\'entretien des semis et cultures maraîchères.',
+            'details'     => 'Les bénéficiaires reçoivent une formation pratique sur les techniques d\'arrosage, de fertilisation naturelle et de lutte biologique contre les nuisibles, favorisant une agriculture durable et productive.',
+            'stats'       => [
+                ['value' => '150', 'label' => 'Agriculteurs formés'],
+                ['value' => '6',   'label' => 'Mois d\'accompagnement'],
+                ['value' => '85%', 'label' => 'Taux de survie des plants'],
+            ],
+            'gallery'     => [
+                'images/activites/pepiniere-moringa.jpg',
+                'images/activites/groupe-beneficiaires.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Santé SR',
+            'title'       => 'Causeries éducatives SRHR',
+            'image'       => 'images/activites/srhr-causerie.jpg',
+            'alt'         => 'Causerie éducative sur la santé sexuelle et reproductive',
+            'year'        => '2025',
+            'zone'        => 'Sinendé, Sonsonré',
+            'description' => 'Sessions éducatives sur la santé sexuelle et reproductive, les IST, le VIH/SIDA et l\'hépatite dans les communautés rurales.',
+            'details'     => 'Ces causeries, menées dans le cadre de l\'accord N°5608/STBF-MS-BENIN, visent à renforcer les connaissances des populations et à réduire les comportements à risque en matière de santé reproductive.',
+            'stats'       => [
+                ['value' => '800+', 'label' => 'Personnes sensibilisées'],
+                ['value' => '15',   'label' => 'Sessions organisées'],
+                ['value' => '100%', 'label' => 'Villages ciblés couverts'],
+            ],
+            'gallery'     => [
+                'images/activites/srhr-communaute.jpg',
+                'images/activites/sensibilisation-nikki.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Santé SR',
+            'title'       => 'Sensibilisation communautaire',
+            'image'       => 'images/activites/srhr-communaute.jpg',
+            'alt'         => 'Groupe de bénéficiaires lors d\'une activité de sensibilisation',
+            'year'        => '2025',
+            'zone'        => 'Zone NKP',
+            'description' => 'Sensibilisation des communautés sur la santé sexuelle et reproductive avec implication des leaders locaux et des agents de santé.',
+            'details'     => 'Ces activités impliquent chefs de villages, agents de santé communautaire et associations de femmes pour diffuser les messages de santé et assurer une adoption durable des bonnes pratiques.',
+            'stats'       => [
+                ['value' => '40',    'label' => 'Communautés impliquées'],
+                ['value' => '60',    'label' => 'Leaders mobilisés'],
+                ['value' => '3 500+','label' => 'Bénéficiaires directs'],
+            ],
+            'gallery'     => [
+                'images/activites/srhr-causerie.jpg',
+                'images/activites/groupe-beneficiaires.jpg',
+            ],
+        ],
+        [
+            'tag'         => 'Communauté',
+            'title'       => 'Engagement à Nikki',
+            'image'       => 'images/activites/sensibilisation-nikki.jpg',
+            'alt'         => 'Sensibilisation communautaire à Nikki, août 2024',
+            'year'        => '2024',
+            'zone'        => 'Nikki (Borgou)',
+            'description' => 'Renforcement de l\'engagement communautaire à Nikki à travers des activités de sensibilisation multidomaines.',
+            'details'     => 'Cette intervention transversale a permis de renforcer la cohésion sociale et l\'appropriation des programmes par les communautés de Nikki, en combinant santé, nutrition et agroécologie dans une approche intégrée.',
+            'stats'       => [
+                ['value' => '2 000+', 'label' => 'Bénéficiaires touchés'],
+                ['value' => '8',      'label' => 'Quartiers couverts'],
+                ['value' => '3',      'label' => 'Domaines d\'intervention'],
+            ],
+            'gallery'     => [
+                'images/activites/srhr-communaute.jpg',
+                'images/activites/groupe-beneficiaires.jpg',
+                'images/activites/nutrition-sensibilisation.jpg',
+            ],
+        ],
+    ],
+
+    'gallery' => [
+        ['file' => 'images/activites/nutrition-sensibilisation.jpg', 'caption' => 'Sensibilisation nutritionnelle'],
+        ['file' => 'images/activites/depistage-malnutrition.jpg',    'caption' => 'Dépistage malnutrition infantile'],
+        ['file' => 'images/activites/demonstration-culinaire.jpg',   'caption' => 'Démonstration culinaire'],
+        ['file' => 'images/activites/pepiniere-moringa.jpg',         'caption' => 'Plantation de moringa'],
+        ['file' => 'images/activites/arrosage-semis.jpg',            'caption' => 'Pépinière communautaire'],
+        ['file' => 'images/activites/srhr-causerie.jpg',             'caption' => 'Causerie SRHR'],
+        ['file' => 'images/activites/srhr-communaute.jpg',           'caption' => 'Activité communautaire'],
+        ['file' => 'images/activites/groupe-beneficiaires.jpg',      'caption' => 'Bénéficiaires des programmes'],
+        ['file' => 'images/galerie/photo-013.jpg',                   'caption' => 'Terrain — zone NKP'],
+        ['file' => 'images/galerie/photo-016.jpg',                   'caption' => 'Activités sur le terrain'],
+        ['file' => 'images/galerie/photo-025.jpg',                   'caption' => 'Rencontre communautaire'],
+        ['file' => 'images/galerie/photo-026.jpg',                   'caption' => 'Sensibilisation en milieu rural'],
+    ],
+
+    'news' => [
+        [
+            'date'  => '2025-12',
+            'label' => 'Décembre 2025',
+            'title' => 'Bilan des activités nutrition 2025',
+            'text'  => '730 enfants dépistés, démonstrations culinaires et distribution de plants de moringa à Nikki et Sinendé.',
+            'image' => 'images/activites/depistage-malnutrition.jpg',
+        ],
+        [
+            'date'  => '2025-10',
+            'label' => 'Octobre 2025',
+            'title' => 'Causerie IST/VIH/Hépatite à Sonsonré',
+            'text'  => 'Causerie éducative sur les infections sexuellement transmissibles et la santé reproductive.',
+            'image' => 'images/activites/srhr-causerie.jpg',
+        ],
+        [
+            'date'  => '2025-09',
+            'label' => 'Septembre 2025',
+            'title' => 'Subvention SRHR du Ministère de la Santé',
+            'text'  => 'Mise en œuvre de l\'accord de subvention pour la sensibilisation communautaire en zone NKP.',
+            'image' => 'images/activites/srhr-communaute.jpg',
+        ],
+        [
+            'date'  => '2024-08',
+            'label' => 'Août 2024',
+            'title' => 'Sensibilisation communautaire à Nikki',
+            'text'  => 'Rencontre de sensibilisation avec les communautés locales du Borgou.',
+            'image' => 'images/activites/sensibilisation-nikki.jpg',
+        ],
+    ],
+
+];
